@@ -1,7 +1,11 @@
 import React from "react";
+import ArrowUpIcon from "../../Icon/ArrowUpIcon";
 import CartIcon from "../../Icon/CartIcon";
 import LoginIcon from "../../Icon/LoginIcon";
+import SearchIcon from "../../Icon/SearchIcon";
 import UserIcon from "../../Icon/UserIcon";
+import NavBarMobile from "../../NavBareMobile";
+import SearchBar from "../../SearchBar";
 
 const Header = () => {
   return (
@@ -21,20 +25,13 @@ const Header = () => {
           </div>
         </div>
         <div className=" d-none d-lg-flex col-lg-6 align-items-center justify-content-center">
-          <div className=" input-group ">
-            <button className="btn btn-primary rounded-pill rounded-end">
-              جستجو
-            </button>
-            <input
-              dir="rtl"
-              className=" form-control"
-              type="search"
-              placeholder="عبارت جستجو را وارد کنید "
-            />
-          </div>
+          <SearchBar />
         </div>
         <div className="  d-none d-lg-flex col-lg-3  align-items-center justify-content-end">
           <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <div className=" col-12 d-lg-none mt-4  ">
+          <NavBarMobile />
         </div>
       </div>
     </div>
