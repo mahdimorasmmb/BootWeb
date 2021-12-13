@@ -27,10 +27,11 @@ const NavBarMobile = () => {
           <ArrowUpIcon />
         </a>
       </div>
-
-      <div className={`col-12 mt-4 ${searchBarShow ? "show" : "fade"} `}>
-        <SearchBar />
-      </div>
+      {searchBarShow && (
+        <div className={`col-12 mt-4 ${searchBarShow ? "show" : "fade"} `}>
+          <SearchBar />
+        </div>
+      )}
     </div>
   );
 };

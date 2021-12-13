@@ -8,7 +8,7 @@ const SearchBar = () => {
       </button>
       <input
         dir="rtl"
-        className=" form-control"
+        className=" form-control rounded-pill rounded-start"
         type="search"
         placeholder="عبارت جستجو را وارد کنید "
       />
