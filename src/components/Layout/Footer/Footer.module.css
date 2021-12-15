@@ -1,0 +1,8 @@
+.custom_ul {
+  list-style: none;
+}
+
+.custom_ul li::before {
+  content: "• ";
+  color: #0d6efd;
+}

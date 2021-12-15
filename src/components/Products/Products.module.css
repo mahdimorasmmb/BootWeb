@@ -1,0 +1,38 @@
+.imgCard button {
+  position: absolute;
+  z-index: 11;
+  top: 20%;
+  right: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-out;
+  transform: translate(50%, -50%) scale(0);
+}
+
+.imgCard span {
+  position: absolute;
+  right: 50%;
+  top: 10%;
+  transform: translate(50%, -50%) scale(0);
+  transition: all 0.2s ease-out 0.1s;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.imgCard:hover button {
+  opacity: 100;
+  visibility: visible;
+  transform: translate(50%, -50%) scale(1);
+}
+
+.imgCard:hover span {
+  opacity: 100;
+  visibility: visible;
+  transform: translate(50%, -50%) scale(1);
+}
+
+.imgCard:hover img {
+  filter: brightness(60%);
+  transition: all 1s;
+}
