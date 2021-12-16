@@ -6,3 +6,7 @@
   content: "• ";
   color: #0d6efd;
 }
+
+.custom_ul li a:hover {
+  color: #ffc107 !important;
+}

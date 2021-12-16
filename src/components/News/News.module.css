@@ -1,0 +1,6 @@
+.news {
+  background-image: url("../../../../img/tile.jpg");
+  background-color: #302f2f !important;
+
+  background-blend-mode: overlay !important;
+}

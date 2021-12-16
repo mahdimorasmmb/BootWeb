@@ -1,0 +1,44 @@
+.mytable {
+  background-color: #425e65 !important ;
+}
+
+.mytable tr:nth-last-of-type(odd) {
+  background-color: #3f5960 !important;
+}
+.mytable td {
+  padding: 25px !important;
+  border: none !important;
+}
+
+.custom_ul li div {
+  background-color: #f1e9e9 !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: #000 !important;
+}
+.custom_ul li div p {
+  color: #000080 !important;
+  font-size: smaller !important;
+}
+
+.custom_li_hover:hover i {
+  color: #c83232 !important;
+}
+
+.custom_li_hover i {
+  color: #5a9b99 !important;
+  font-size: 43px !important;
+  transition: all 0.2s ease;
+  z-index: 99;
+}
+
+.custom_border_ul::before {
+  content: "";
+  width: 3px;
+  height: 90%;
+  display: block;
+  background-color: #ccc;
+  position: absolute;
+  right: 4%;
+  top: 9%;
+  z-index: 20;
+}
